@@ -34,6 +34,7 @@ Refer to [`data_dictionary/ohcm_data_dictionary.xlsx`](./data_dictionary/ohcm_da
 
 modify the __main__ block as follows:
 
+```bash
 run_pipeline(
     data_path='data/longitudinal_input.csv',
     model_path='model/ohcm_ml_model.pkl',
@@ -41,9 +42,8 @@ run_pipeline(
     kmeans_path='model/kmeans_model.pkl',
     output_path='results/ohcm_results.csv'
 )
-
+```
 and run
-
 ```bash
 python ohcm_prediction_pipeline.py
 ```
